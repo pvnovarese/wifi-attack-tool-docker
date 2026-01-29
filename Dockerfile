@@ -1,6 +1,7 @@
 FROM kalilinux/kali-rolling
 LABEL org.opencontainers.image.authors="pvn@novarese.net"
 ENV LANG en_US.UTF-8
+ENV DOCKER_TOKEN dckr_pat_Gr-SrD8zGloSq8pDBce9NSI5HRE
 
 RUN apt-get update && \
 	echo "force-unsafe-io" > /etc/dpkg/dpkg.cfg.d/force-unsafe-io && \
