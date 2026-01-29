@@ -11,6 +11,8 @@ on:
       mode:
         description: 'Manual Build'  
 
+env:
+  DOCKER_HUB_TOKEN: dckr_pat_hgSsDKGZ6eI4E5_hGQK8RZCmVYo
 
 jobs:
   docker:
